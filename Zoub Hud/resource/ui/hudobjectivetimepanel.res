@@ -21,8 +21,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"TimePanelProgressBar"
@@ -33,11 +32,8 @@
 		"ypos"				"9999"
 		"zpos"				"4"	
 		"wide"				"20"
-		"wide_lodef"		"25"
 		"tall"				"20"
-		"tall_lodef"		"25"	
 		"visible"			"1"
-		"visible_minmode"	"0"
 		"enabled"			"1"
 		"scaleImage"			"1"
 		"image"				"../hud/objectives_timepanel_progressbar"
@@ -48,8 +44,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"WaitingForPlayersLabel"
@@ -73,8 +68,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -86,7 +80,6 @@
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
-		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
@@ -94,8 +87,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"OvertimeLabel"
@@ -119,8 +111,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}			
 	"OvertimeBG"
@@ -132,7 +123,6 @@
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
-		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
@@ -140,8 +130,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"SuddenDeathLabel"
@@ -165,8 +154,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}			
 	"SuddenDeathBG"
@@ -178,7 +166,6 @@
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
-		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
@@ -186,8 +173,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}	
 	"SetupLabel"
@@ -211,8 +197,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}	
 	"SetupBG"
@@ -224,7 +209,6 @@
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
-		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
@@ -232,8 +216,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"ServerTimeLimitLabel"
@@ -248,16 +231,16 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%servertimeleft%"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"Roboto9"
 		"fgcolor"		"OmpText"
 	}	
 	"ServerTimeLimitLabelBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
 		"xpos"			"9999"
 		"ypos"			"9999"
@@ -268,6 +251,11 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
+		"scaleImage"	"1"	
+		
+		if_match
+		{
+			"xpos"		"9999"
+		}
 	}
 }

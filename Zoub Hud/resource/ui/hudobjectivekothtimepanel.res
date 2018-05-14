@@ -29,13 +29,13 @@
 		
 		if_match
 		{
-			"xpos"				"35"
-			"ypos"				"10"
+			"xpos"				"33"
+			"ypos"				"8"
 		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"Ubuntu16"
 			"fgcolor"		"OmpText"
@@ -43,15 +43,15 @@
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"46"
-			"tall"			"17" // omp -- -1 aesthetic adjustment.
+			"tall"			"17"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
 			if_match
 			{
-				"font"			"Roboto11"
+				"font"		"Ubuntu14"
 			}
 		}	
 	}
@@ -77,13 +77,13 @@
 		
 		if_match
 		{
-			"xpos"				"65"
-			"ypos"				"10"
+			"xpos"				"68"
+			"ypos"				"8"
 		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"Ubuntu16"
 			"fgcolor"		"OmpText"
@@ -91,15 +91,15 @@
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"46"
-			"tall"			"17" // omp -- -1 aesthetic adjustment.
+			"tall"			"17"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
 			if_match
 			{
-				"font"			"Roboto11"
+				"font"		"Ubuntu14"
 			}
 		}	
 	}

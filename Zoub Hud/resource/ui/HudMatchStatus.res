@@ -282,12 +282,13 @@
 		
 		if_match
 		{
+			"ypos"				"8"
 			"zpos"				"5"
 		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"Ubuntu16"
 			"fgcolor"		"OmpText"
@@ -295,16 +296,15 @@
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"46"
-			"tall"			"17" // omp -- -1 aesthetic adjustment.
+			"tall"			"17"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
 			if_match
 			{
-				"font"			"Ubuntu14"
-				"ypos"			"8"
+				"font"		"Ubuntu14"
 			}
 		}	
 	}
